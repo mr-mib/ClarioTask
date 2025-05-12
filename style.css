@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background: radial-gradient(circle, #222831 0%, #393e46 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: #eeeeee;
+  width: 700px;
+  height: 60vh;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+
+h1 {
+  color: #00adb5;
+  font-size: 3rem;
+  margin: 20px 0 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h1 i {
+  margin-left: 10px;
+}
+
+.input-container {
+  background-color: #fff;
+  height: 80px;
+  border-radius: 50px;
+  display: flex;
+  padding: 10px;
+}
+
+#task-input {
+  width: 80%;
+  height: 50%;
+  height: 100%;
+  color: #00adb5;
+  border-radius: 20px;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+}
+
+#input-action {
+  width: 20%;
+  height: 100%;
+  border-radius: 50px;
+  border: none;
+  background-color: #00adb5;
+  color: #eee;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* tasks-list */
+ul {
+  width: 100%;
+  margin-top: 20px;
+  overflow-y: auto;
+  padding: 10px 0;
+  list-style: none;
+  padding: 0;
+  height: 300px;
+  overflow-y: auto;
+}
+
+ul li {
+  background-color: white;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 20px;
+  margin: 20px 0;
+}
+
+.task {
+  /* background-color: orange; */
+  width: 70%;
+  font-size: 1.5rem;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.task i {
+  font-size: 1.5rem;
+  margin-right: 20px;
+  color: #00adb5;
+}
+
+.task p {
+  color: #00adb5;
+  font-size: 2rem;
+}
+
+#edit-delete {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  color: #00adb5;
+}
+
+#edit-delete i {
+  font-size: 2rem;
+}
+
+.done {
+  text-decoration: line-through wavy 3px;
+  color: black;
+}
+
+.text-done-mode {
+  color: navy;
+}

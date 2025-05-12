@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>
+          ToDo
+          <i class="fa-solid fa-list-check"></i>
+        </h1>
+      </section>
+
+      <section class="input-container">
+        <input type="text" id="task-input" placeholder="Add a new task..." />
+        <button id="input-action" class="addBtn">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </section>
+
+      <section>
+        <ul id="lists"></ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
